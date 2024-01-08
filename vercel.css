@@ -1,0 +1,42 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: helvetica;
+}
+.title {
+    background-color: skyblue;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: lowercase;
+    padding: 8px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.container label {
+    font-size: 12px;
+}
+
+.container input {
+    border: none;
+    border-bottom: 1px solid yellow;
+    padding: 16px 8px;
+    font-size: 18px;
+}
